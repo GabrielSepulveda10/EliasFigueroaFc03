@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:text="O Usa Uno De Tus Perfiles Virtuales"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btAceptar" />
+
+    <Button
+        android:id="@+id/btAceptar"
+        android:layout_width="118dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Ingresar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBienvenida" />
+
+    <TextView
+        android:id="@+id/textBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="Bienvenido_as!!!"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="238dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Contraseña"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Contraseña" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="263dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBienvenida"
+        app:srcCompat="@drawable/elias" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#0327FF"
+        android:text="FACEBOOK"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btAceptar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FF0707"
+        android:text="Google"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btAceptar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="sans-serif"
+        android:text="El Primer Campeón Provincial  ⚽"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#5E35B1"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBienvenida" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

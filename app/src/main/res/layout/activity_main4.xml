@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="268dp"
+        android:text="Serie De Oro"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="155dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juv"
+        tools:srcCompat="@drawable/juv" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="172dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="416dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ss"
+        tools:srcCompat="@drawable/ss" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="215dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="564dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/honor"
+        tools:srcCompat="@drawable/honor" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Serie Senior"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="165dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seni"
+        tools:srcCompat="@drawable/seni" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="Serie Penecas"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="167dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oro"
+        tools:srcCompat="@drawable/oro" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="268dp"
+        android:text="Serie Primera"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="172dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/se"
+        tools:srcCompat="@drawable/se" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="163dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="292dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sub14"
+        tools:srcCompat="@drawable/sub14" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:text="Serie Sub-14"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="149dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sen"
+        tools:srcCompat="@drawable/sen" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Serie Juvenil Sub-16"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:text="Serie Super Senior"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:text="Serie De Honor"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:text="Serie Segunda"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="162dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="432dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pri"
+        tools:srcCompat="@drawable/pri" />
+
+    <LinearLayout
+        android:layout_width="42dp"
+        android:layout_height="6dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="207dp"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

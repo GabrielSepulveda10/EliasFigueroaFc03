@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btModuloF"
+        android:layout_width="152dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Noticias/Otros"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@+id/btModuloC"
+        app:layout_constraintTop_toBottomOf="@+id/btModuloE" />
+
+    <Button
+        android:id="@+id/btAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#FFFFFFFF"
+        android:text="Salir"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btModuloD"
+        android:layout_width="155dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Directiva"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btModuloA"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btModuloB"
+        android:layout_width="172dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Sus Series"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btModuloA" />
+
+    <Button
+        android:id="@+id/btModuloE"
+        android:layout_width="155dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Locomoción Partidos De Visita"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btModuloB"
+        app:layout_constraintTop_toBottomOf="@+id/btModuloD" />
+
+    <Button
+        android:id="@+id/btModuloA"
+        android:layout_width="174dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Su Historia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tVPrueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:text="¿Dónde Quieres Ir?"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btModuloC"
+        android:layout_width="173dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#5E35B1"
+        android:text="Próximos Partidos"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btModuloB" />
+</androidx.constraintlayout.widget.ConstraintLayout>

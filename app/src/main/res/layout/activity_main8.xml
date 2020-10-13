@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Semana 14/09/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:text="*Día de la Raza"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="175dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="* Fallecimiento de nuestro jugador Oscar Sepúlveda Palma"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="*Día de la madre"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="163dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="* Fallecimiento de madre de unos de nuestros jugadores María Parra Vergara"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="10dp"
+        android:text="Semana 09/03/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="560dp"
+        android:text="Semana 30/03/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="10dp"
+        android:text="Semana 06/04/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:text="Semana 10/08/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="*Día del niño y niña"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="*Día del padre"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:text="Semana 15/06/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="164dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="120dp"
+        android:text="*Avances en nuestra sede deportiva"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="164dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="* Fallecimiento de nuestro jugador Mario Suazo Arteaga"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="32dp"
+        android:text="*Fiestas Patrias"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Semana 12/10/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="380dp"
+        android:text="Semana 04/05/2020"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="148dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:text="*El Día de las Glorias del Ejército de Chile"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5E35B1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
