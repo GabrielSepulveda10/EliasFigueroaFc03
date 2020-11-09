@@ -4,50 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity3">
 
     <TextView
-        android:id="@+id/textView11"
-        android:layout_width="384dp"
-        android:layout_height="269dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="100dp"
-        android:text="Fue el primer club deportivo de la comuna de San Carlos en ganar una copa de campeones a un equipo de la liga asociación Coihueco, donde hasta el día de hoy ellos y todos los hinchas de nuestro club lo recuerdan, siendo este uno de sus trofeos más importante en su historia.  Actualmente cuentan con 9 series: Serie Juvenil Sub-16, Serie De Oro, Serie Super Senior, Serie Segunda Adulta, Serie Senior, Serie Sub-14, Serie Penecas, Serie Primera y Serie De Honor. Donde La Serie Penecas es la única que ha podido ganar 4 campeonatos consecutivos en los Campeonatos De Apertura y Clausura de los años 2018-2019, hecho que ha dado que hablar en todo San Carlos. "
-        android:textAlignment="center"
-        android:textColor="#5E35B1"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="387dp"
-        android:layout_height="248dp"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="100dp"
-        android:text="Han sido uno de los pocos equipos de San Carlos, que han podido sacar campeonas a todas sus series a lo largo de los años de lo que es la asociación Andaba San Carlos, quedando en la historia, unas series muy importantes tales como una serie de honor que salió tricampeona en los años(2002-2003-2004), siendo en esos años un logro importantísimo, también una serie juvenil sub-16 en el año 2004 logro ser campeona, siendo de esta manera la primera serie campeona de dicho campeonato, también una serie super senior que fue a jugar un regional años atrás. El Club Deportivo Elías Figueroa es uno de los pocos equipos en San Carlos que tiene su cancha propia, hecho que años atrás lo consiguieron dirigentes con mucho esfuerzo, para la celebración de eso, se sirvió una comida donde fue invitado de honor el ex jugador de futbol Elías Ricardo Figueroa Brander, donde su visita fue muy importante para todos los jugadores, dirigentes y socios."
-        android:textAlignment="center"
-        android:textColor="#5E35B1"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-    <TextView
         android:id="@+id/textView9"
-        android:layout_width="385dp"
-        android:layout_height="139dp"
+        android:layout_width="409dp"
+        android:layout_height="621dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="100dp"
-        android:text="Su historia comienza en 1971 donde algunos meses un grupo de hombres del sector nueva esperanza, buscaban la manera de entretener al sector, en ese momento se comentaron muchas ideas para poder llamar la atención y la entretención, donde sin duda alguna la más llamativa fue realizar un club deportivo el cuál en un principio solo contaba con jugadores del sector, en el mes de diciembre de dicho año se decidió formar el Club Deportivo Elías Figueroa."
+        android:text="Su historia comienza en 1971 donde algunos meses un grupo de hombres del sector nueva esperanza, buscaban la manera de entretener al sector, en ese momento se comentaron muchas ideas para poder llamar la atención y la entretención, donde sin duda alguna la más llamativa fue realizar un club deportivo el cuál en un principio solo contaba con jugadores del sector, en el mes de diciembre de dicho año se decidió formar el Club Deportivo Elías Figueroa.\n \n Han sido uno de los pocos equipos de San Carlos, que han podido sacar campeonas a todas sus series a lo largo de los años de lo que es la asociación Andaba San Carlos, quedando en la historia, unas series muy importantes tales como una serie de honor que salió tricampeona en los años(2002-2003-2004), siendo en esos años un logro importantísimo, también una serie juvenil sub-16 en el año 2004 logro ser campeona, siendo de esta manera la primera serie campeona de dicho campeonato, también una serie super senior que fue a jugar un regional años atrás. \n \n El Club Deportivo Elías Figueroa es uno de los pocos equipos en San Carlos que tiene su cancha propia, hecho que años atrás lo consiguieron dirigentes con mucho esfuerzo, para la celebración de eso, se sirvió una comida donde fue invitado de honor el ex jugador de futbol Elías Ricardo Figueroa Brander, donde su visita fue muy importante para todos los jugadores, dirigentes y socios. Fue el primer club deportivo de la comuna de San Carlos en ganar una copa de campeones a un equipo de la liga asociación Coihueco, donde hasta el día de hoy ellos y todos los hinchas de nuestro club lo recuerdan, siendo este uno de sus trofeos más importante en su historia. \n \n Actualmente cuentan con 9 series: Serie Juvenil Sub-16, Serie De Oro, Serie Super Senior, Serie Segunda Adulta, Serie Senior, Serie Sub-14, Serie Penecas, Serie Primera y Serie De Honor. Donde La Serie Penecas es la única que ha podido ganar 4 campeonatos consecutivos en los Campeonatos De Apertura y Clausura de los años 2018-2019, hecho que ha dado que hablar en todo San Carlos. "
         android:textAlignment="center"
         android:textColor="#5E35B1"
         android:textSize="12sp"
@@ -66,17 +33,19 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.925" />
+        app:layout_constraintVertical_bias="0.888" />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="392dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="656dp"
+        android:layout_marginEnd="7dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.925" />
+        app:srcCompat="@drawable/esta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

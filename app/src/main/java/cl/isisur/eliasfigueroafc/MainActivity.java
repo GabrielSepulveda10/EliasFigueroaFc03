@@ -32,8 +32,11 @@ public class MainActivity extends AppCompatActivity {
                 MiIntent.putExtra("MiNombre1",MiNombre.getText()+"");
                 startActivity(MiIntent);
 
+
+
             }
         });
+
 
     }
 

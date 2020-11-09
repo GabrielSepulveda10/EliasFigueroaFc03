@@ -30,4 +30,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_santotomas__1_"
         tools:layout_editor_absoluteX="-3dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

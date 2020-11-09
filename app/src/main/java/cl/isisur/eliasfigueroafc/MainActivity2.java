@@ -11,10 +11,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
-    private Button MiBotonA,MiBotonB,MiBotonC,MiBotonD,MiBotonE, MiBotonF;
+    private Button MiBotonA,MiBotonB,MiBotonC,MiBotonD,MiBotonE, MiBotonF, MiBotonG;
     private TextView MiTvPrueba;
     private Button MiBoton;
-    private Intent MiIntentD;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
         MiBotonD= (Button) findViewById(R.id.btModuloD);
         MiBotonE= (Button) findViewById(R.id.btModuloE);
         MiBotonF= (Button) findViewById(R.id.btModuloF);
+        MiBotonG= (Button) findViewById(R.id.btModuloG);
         MiTvPrueba= (TextView) findViewById(R.id.tVPrueba);
 
         MiBotonA.setOnClickListener(new View.OnClickListener() {
@@ -123,6 +123,21 @@ public class MainActivity2 extends AppCompatActivity {
 
                 Intent MiIntentC = new Intent(MainActivity2.this,MainActivity8.class);
                 MiIntentC.putExtra("Modulo","Hola Modulo F desde Modulo Uno");
+                MiIntentC.putExtra("Numero",33);
+                startActivity(MiIntentC);
+
+
+            }
+        });
+
+
+        MiBotonG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MiTvPrueba.setText(("Modulo G"));
+
+                Intent MiIntentC = new Intent(MainActivity2.this,MapsActivity.class);
+                MiIntentC.putExtra("Modulo","Hola Modulo G desde Modulo Uno");
                 MiIntentC.putExtra("Numero",33);
                 startActivity(MiIntentC);
 

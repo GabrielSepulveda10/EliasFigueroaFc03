@@ -57,10 +57,10 @@
 
     <EditText
         android:id="@+id/editTextContraseña"
-        android:layout_width="238dp"
-        android:layout_height="60dp"
+        android:layout_width="258dp"
+        android:layout_height="68dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="416dp"
         android:layout_marginEnd="100dp"
         android:ems="10"
         android:inputType="textPassword"
@@ -69,7 +69,7 @@
         android:textColor="#5E35B1"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Contraseña" />
@@ -91,7 +91,7 @@
         android:layout_width="130dp"
         android:layout_height="57dp"
         android:layout_marginStart="240dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
         android:backgroundTint="#0327FF"
         android:text="FACEBOOK"
         android:textColor="#FFFFFF"
@@ -103,7 +103,7 @@
         android:layout_width="130dp"
         android:layout_height="57dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
         android:backgroundTint="#FF0707"
         android:text="Google"
         android:textColor="#FFFFFF"
@@ -144,5 +144,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="395dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/esta" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
